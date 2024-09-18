@@ -60,6 +60,8 @@ st.markdown(
 )
 
 # Display the title
+st.image('logo.png', caption='Alzhemirs  Prediction', use_column_width=True)
+
 st.markdown("<h1 class='title'>Alzheimer's Disease Prediction</h1>", unsafe_allow_html=True)
 st.markdown("<h1 class='text'>Alzheimer's Disease Prediction is a web application that utilizes a pre-trained deep learning model to predict the presence of Alzheimer's disease based on uploaded brain ultrasound images. Users can upload an image through the sidebar and the app will process the image using the trained model.</h1>", unsafe_allow_html=True)
 
